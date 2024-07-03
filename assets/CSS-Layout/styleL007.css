@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-heading {
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: bold;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.product-info {
+  /* (825 - 8 - 200 - 80)/2 */
+  width: 268px;
+  float: left;
+  margin-right: 30px;
+  padding: 20px;
+}
+
+#price {
+  font-size: 20px;
+  font-style: bold;
+  float: left;
+}
+
+p,
+li {
+  font-size: 14px;
+}
+
+article {
+  font-family: sans-serif;
+  border: 5px solid black;
+  line-height: 1.4;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.product-img {
+  float: left;
+  margin-right: 40px;
+}
+
+#shipping {
+  color: #444;
+  font-style: bold;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: sans-serif;
+  float: right;
+  margin-top: 8px;
+}
+
+.sale {
+  background-color: #ec2f2e;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+
+  /* width: 40px;
+    text-align: center; */
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.product-description {
+  clear: both;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: #2f6ee2;
+}
+
+.color-red {
+  background-color: #ec2f2e;
+}
+
+.color-yellow {
+  background-color: #f0bf1e;
+}
+
+.color-green {
+  background-color: #90cc20;
+}
+
+.color-brown {
+  background-color: #885214;
+}
+
+h3 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-style: bold;
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.product-details {
+  width: 268px;
+  float: left;
+}
+
+.detail-list {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+button {
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 5px solid black;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
